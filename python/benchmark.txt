@@ -1,0 +1,35 @@
+Server Software:        Python
+Server Hostname:        127.0.0.1
+Server Port:            3000
+
+Document Path:          /search?q=mesa
+Document Length:        30 bytes
+
+Concurrency Level:      100
+Time taken for tests:   1.078 seconds
+Complete requests:      1000
+Failed requests:        0
+Total transferred:      137000 bytes
+HTML transferred:       30000 bytes
+Requests per second:    927.71 [#/sec] (mean)
+Time per request:       107.793 [ms] (mean)
+Time per request:       1.078 [ms] (mean, across all concurrent requests)
+Transfer rate:          124.12 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   1.7      0       9
+Processing:    33  105  21.9    108     158
+Waiting:       33  104  21.9    108     157
+Total:         33  106  21.5    109     159
+
+Percentage of the requests served within a certain time (ms)
+  50%    109
+  66%    115
+  75%    121
+  80%    122
+  90%    127
+  95%    136
+  98%    146
+  99%    147
+ 100%    159 (longest request)
